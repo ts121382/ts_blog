@@ -14,7 +14,6 @@ import '@/styles/index.scss'
 //pinia
 import pinia from '@/store'
 
-
 const app = createApp(App)
 app.use(ElementPlus, {
   locale: zhCn,

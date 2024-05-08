@@ -9,7 +9,7 @@ let useUserStore = defineStore('User', {
     return {
       token: GET_TOKEN(),
       username: '',
-      menuRoutes:constantRoute,
+      menuRoutes: constantRoute,
     }
   },
   actions: {
